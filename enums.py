@@ -2,8 +2,6 @@ from enum import Enum
 
 
 class TitleEnum(str, Enum):
-    """Enum for the job title of participants retrieved from the API."""
-
     ai_automation = "ai_automation"
     backend = "backend"
     crm = "crm"
@@ -30,8 +28,6 @@ class TitleEnum(str, Enum):
 
 
 class LevelEnum(str, Enum):
-    """Enum for the job level of participants retrieved from the API."""
-
     c_level = "c_level"
     director = "director"
     group_product_manager = "group_product_manager"
@@ -50,46 +46,34 @@ class LevelEnum(str, Enum):
 
 
 class GenderEnum(str, Enum):
-    """Enum for the gender of participants retrieved from the API."""
-
     male = "male"
     female = "female"
 
 
 class BusinessMarketEnum(str, Enum):
-    """Enum for the market scope of the business of participants retrieved from the API."""
-
     global_market = "global"
     regional_market = "regional"
     local_market = "local"
 
 
 class BusinessSizeEnum(str, Enum):
-    """Enum for the size of the business of participants retrieved from the API."""
-
     large = "large"
     medium = "medium"
     small = "small"
 
 
 class BusinessFocusEnum(str, Enum):
-    """Enum for the focus of the business of participants retrieved from the API."""
-
     product = "product"
     software = "software_house"
 
 
 class BusinessLineEnum(str, Enum):
-    """Enum for the line of business of participants retrieved from the API."""
-
     b2b = "b2b"
     b2c = "b2c"
     both = "both"
 
 
 class ProgrammingLanguageEnum(str, Enum):
-    """Enum for the programming language of participants retrieved from the API."""
-
     javascript = "java_script"
     typescript = "type_script"
     python = "python"
